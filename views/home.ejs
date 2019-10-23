@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="loginForm">
+            <h3 style="color: blue;">What's your name?</h3>
+            <input type="text" id="txtUserName" />
+            <input type="button" value="Register" id="btnRegister" />
+        </div>
+        <div id="chatForm">
+            <div id="left">
+                <div id="boxTitle">Users Online</div>
+                <div id="boxContent">
+                    <!-- <div class="userOnline">Nhan Tra It</div>
+                    <div class="userOnline">Nhan Tra It</div>
+                    <div class="userOnline">Nhan Tra It</div>
+                    <div class="userOnline">Nhan Tra It</div> -->
+                </div>
+            </div>
+            <div id="right">
+                <div id="sayHi">
+                    Hello <span id="currentUser">Nhan</span>
+                    <input type="button" id="btnLogout" value="Logout">
+                </div>
+                <div id="listMessages">
+                </div>
+                <div id="textShowUserTyping"></div>
+                <input type="text" id="txtMessage" />
+                <input type="button" id="btnSendMessage" value="Send" />
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

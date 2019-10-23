@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="room.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <input type="text" id="txtRoom" />
+    <input type="button" id="btnCreateRoom" value="Create Room" />
+
+    <div id="left-room">
+        <h3>ROOMS DANG CO</h3>
+        <div id="list-room"></div>
+    </div>
+    <h4 id="currentRoom">...</h4>
+    <div id="right-room">
+        
+    </div>
+
+    <input type="text" id="txtMessage" />
+    <input type="button" id="btnChat" value="Chat" />
+</body>
+
+</html>
